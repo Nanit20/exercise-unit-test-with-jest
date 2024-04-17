@@ -1,7 +1,7 @@
 let oneEuroIs = {
-    "JPY": 127.9, // japan yen
-    "USD": 1.209, // us dollar
-    "GBP": 0.8, // british pound
+    "JPY": 156.5, // japan yen
+    "USD": 1.07, // us dollar
+    "GBP": 0.87, // british pound
 }
 
 let fromDollarToYen = (dollar) => (dollar * (oneEuroIs.JPY/oneEuroIs.USD))
